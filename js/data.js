@@ -25,7 +25,7 @@ function getPlatform() {
 }
 console.log('Ваша платформа: ' + getPlatform());
 if (getPlatform() == 'Android') {
-    location.href = "https://play.google.com/store/apps/details?id=com.danielimanaly.kyrgyzcha&pli=1";
+    location.href = "https://play.google.com/store/apps/details?id=com.danielergeshaliev.mobi_kg";
 } else if (getPlatform() == 'iPhone') {
     location.href = "https://www.apple.com/";
 }
